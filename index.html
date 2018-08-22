@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>The Book Store</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>THE BOOK STORE</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="customerinfo">
+            <div class="form-group">
+              <label for="name">First and Last Name:</label>
+              <input id="name" class="form-control" type="text" placeholder="First and Last Name">
+              <label for="payment">Enter Payment Information</label>
+              <input id="payment" class="form-control" type="text" placeholder="Enter credit card number or online wallet id">
+              <label for="address">Shipping Address:</label>
+              <input id="address" class="form-control" type="text" placeholder="Enter shipping address">
+            </div>
+            <h5>Select the number of books you would like to order:</h5>
+            <select class="form-control" id="nob">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+            </select>
+            <h5>Select your book cover color:</h5>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Green" checked>
+                    Green
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Teal">
+                    Teal
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Pink">
+                    Pink
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Lime Green">
+                    Lime Green
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Black">
+                    Black
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Red">
+                    Red
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Blue">
+                    Blue
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="bookcolor" value="Orange">
+                    Orange
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-4 bookcolor">
+                <img src="img/bookcolors.jpg" alt="Different Book Cover Colors">
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-success" type="submit">Place Order!</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="output">
+            Where the output be. Filled in later:
+            <ul id="outputinfo">
+              <li id="nameoutput"></li>
+              <li id="paymentoutput"></li>
+              <li id="addressoutput"></li>
+              <li id="noboutput"></li>
+              <li id="coloroutput"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>

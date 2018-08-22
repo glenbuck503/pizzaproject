@@ -1,0 +1,26 @@
+.radio {
+
+}
+.btn {
+}
+ul li {
+  list-style: none;
+}
+.bookcolor img {
+  height: 180px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#home {
+  background: url(../img/images.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+
+}
+#output ul {
+  color:white
+}
+
+#output h1 {
+  font-size: 20px;
+  color: red;
+}
